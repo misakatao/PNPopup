@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PNPopup_Example' do
+  pod 'PNPopup', :path => '../'
+
+  target 'PNPopup_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
