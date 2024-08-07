@@ -1,0 +1,16 @@
+PODS:
+  - PNPopup (0.1.0)
+
+DEPENDENCIES:
+  - PNPopup (from `../`)
+
+EXTERNAL SOURCES:
+  PNPopup:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PNPopup: 63f14cc8192cfee796e865056620068ecebb79ad
+
+PODFILE CHECKSUM: f2be6fe3d40bfbd94e08214671d0b6514f37ee8e
+
+COCOAPODS: 1.15.2
