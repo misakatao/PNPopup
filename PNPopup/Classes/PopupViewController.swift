@@ -10,34 +10,34 @@ import UIKit
 
 open class PopupViewController : UIViewController {
     
-    public typealias YJPopupBlock = (_ popupVC: PopupViewController?) -> Void
+    public typealias PopupBlock = (_ popupVC: PopupViewController?) -> Void
     
     public var touchAutoDismiss: Bool = false
     
     public var useNavigationController: Bool = true
     
-    public var willPresentBlock: YJPopupBlock?
-    public func willPresentBlock(block: @escaping YJPopupBlock) {
+    public var willPresentBlock: PopupBlock?
+    public func willPresentBlock(block: @escaping PopupBlock) {
         self.willPresentBlock = block
     }
     
-    public var didPresentBlock: YJPopupBlock?
-    public func didPresentBlock(block: @escaping YJPopupBlock) {
+    public var didPresentBlock: PopupBlock?
+    public func didPresentBlock(block: @escaping PopupBlock) {
         self.didPresentBlock = block
     }
     
-    public var willDismissBlock: YJPopupBlock?
-    public func willDismissBlock(block: @escaping YJPopupBlock) {
+    public var willDismissBlock: PopupBlock?
+    public func willDismissBlock(block: @escaping PopupBlock) {
         self.willDismissBlock = block
     }
     
-    public var didDismissBlock: YJPopupBlock?
-    public func didDismissBlock(block: @escaping YJPopupBlock) {
+    public var didDismissBlock: PopupBlock?
+    public func didDismissBlock(block: @escaping PopupBlock) {
         self.didDismissBlock = block
     }
     
-    public var touchBlock: YJPopupBlock?
-    public func touchBlock(block: @escaping YJPopupBlock) {
+    public var touchBlock: PopupBlock?
+    public func touchBlock(block: @escaping PopupBlock) {
         self.touchBlock = block
     }
     
