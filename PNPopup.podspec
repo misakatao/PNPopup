@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PNPopup'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PNPopup.'
+  s.summary          = 'A lightweight, customizable popup presentation library for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+PNPopup provides customizable popup presentation for iOS apps.
+It supports ActionSheet-style (bottom slide-up with spring animation)
+and Alert-style (center pop-in with scale animation) presentations,
+along with lifecycle callbacks, touch-to-dismiss, and optional
+navigation controller wrapping. Pure UIKit with zero dependencies.
                        DESC
 
   s.homepage         = 'https://github.com/misakatao/PNPopup'
